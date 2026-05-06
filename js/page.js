@@ -160,4 +160,21 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
+  const btn = document.getElementById("VeilleBtn");
+  const defaultView = document.getElementById("veille-container");
+  const methodView = document.getElementById("veille-method");
+
+  btn.addEventListener("click", () => {
+    if (defaultView.style.display !== "none") {
+      defaultView.style.display = "none";
+      methodView.style.display = "block";
+      btn.textContent = "Revenir à la veille";
+    } else {
+      defaultView.style.display = "block";
+      methodView.style.display = "none";
+      btn.textContent = "Voir comment j’ai réalisé ma veille";
+    }
+  });
+
 });
+
