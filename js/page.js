@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
     desc: "Création d'une application de cartes interactives, on choisit une matière puis on peut réviser avec différents thèmes.",
     tags: ["HTML", "CSS", "JS", "PHP", "MySQL"],
     images: [
-      { src: "img/projets/memory1.png", caption: "Vue globale" },
+      { src: "img/projets/memories.png", caption: "Vue globale" },
     ]
   },
   {
