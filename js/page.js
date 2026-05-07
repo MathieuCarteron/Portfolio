@@ -72,8 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
     desc: "Gestion des différents acteurs de Pyrofètes : création d'une API RESTful en C# et d'un front-end Angular permettant de gérer les clients, les prestataires et les différentes opportunités.",
     tags: ["C#", "API RESTful", "Angular"],
     images: [
-      { src: "img/projets/pyro1.png", caption: "Gestion des clients" },
-      { src: "img/projets/pyro2.png", caption: "Page opportunités" }
+      { src: "img/projets/PYROFETES.png", caption: "Gestion des clients" },
     ]
   },
   {
