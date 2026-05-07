@@ -447,7 +447,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
   margin-top: 30px;
 }
 
@@ -929,3 +929,18 @@ body {
   border-bottom: 1px solid #6B2B2C;
   text-align: left;
 }
+
+.VeilleBtn {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #7C3636;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.VeilleBtn:hover { background: rgba(124,54,54,0.2); } 

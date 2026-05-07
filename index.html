@@ -258,10 +258,9 @@
           <div class="scroll-item"><img src="img/languages/java.png" alt="Java"></div>
           <div class="scroll-item"><img src="img/languages/python.png" alt="Python"></div>
           <div class="scroll-item"><img src="img/languages/php.png" alt="PHP"></div>
-          <div class="scroll-item"><img src="img/languages/net.png" alt=".NET"></div>
           <div class="scroll-item"><img src="img/languages/csharp.png" alt="C#"></div>
+          <div class="scroll-item"><img src="img/languages/net.png" alt=".NET"></div>
           <div class="scroll-item"><img src="img/languages/angular.png" alt="Angular"></div>
-          <div class="scroll-item"><img src="img/languages/ocaml.png" alt="Ocaml"></div>
 
           <!-- Deuxième fois -->
           <div class="scroll-item"><img src="img/languages/html.png" alt="HTML"></div>
@@ -270,10 +269,9 @@
           <div class="scroll-item"><img src="img/languages/java.png" alt="Java"></div>
           <div class="scroll-item"><img src="img/languages/python.png" alt="Python"></div>
           <div class="scroll-item"><img src="img/languages/php.png" alt="PHP"></div>
-          <div class="scroll-item"><img src="img/languages/net.png" alt=".NET"></div>
           <div class="scroll-item"><img src="img/languages/csharp.png" alt="C#"></div>
+          <div class="scroll-item"><img src="img/languages/net.png" alt=".NET"></div>
           <div class="scroll-item"><img src="img/languages/angular.png" alt="Angular"></div>
-          <div class="scroll-item"><img src="img/languages/ocaml.png" alt="Ocaml"></div>
 
         </div>
       </div><br><br>
@@ -375,10 +373,6 @@
           </div>
         </details>
       </div>
-
-  </div>
-</section>
-
     </section>
 
 
@@ -393,7 +387,7 @@
 
       <!-- Section Réseau -->
       <div class="fiches-categorie">
-        <h3>🌐 Réseau</h3>
+        <h3>🌐 Réalisées en cours</h3>
         <div class="fiches-grid">
           <a href="fiches/reseau/Fiche de procédure - Utiliser VirtualBox.pdf" target="_blank" class="fiche-card">
             <h4>VirtualBox</h4>
@@ -423,25 +417,34 @@
             <h4>Serveur web statique</h4>
             <p>Création d'un serveur web sur machine virtuelle.</p>
           </a>
-        </div>
-      </div>
-
-      <!-- Section Développement -->
-      <div class="fiches-categorie">
-        <h3>💻 Développement</h3>
-        <div class="fiches-grid">
           <a href="fiches/dev/Commandes Git.pdf" target="_blank" class="fiche-card">
             <h4>Commandes Git</h4>
             <p>Différentes commandes utiles lors de la manipulation de Git.</p>
-          </a>
-          <a href="fiches/dev/Entity Framework.pdf" target="_blank" class="fiche-card">
-            <h4>Entity Framework</h4>
-            <p>Différents exemples de codes utiles pour Entity Framework.</p>
           </a>
 
           <a href="fiches/dev/Fiche de procédure _ Docker.pdf" target="_blank" class="fiche-card">
             <h4>Docker</h4>
             <p>Installation et création d'images et de conteneurs docker.</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- Section Développement -->
+      <div class="fiches-categorie">
+        <h3>💻 Réalisées en stage</h3>
+        <div class="fiches-grid">
+          <a href="fiches/reseau/Fiche de procédure - Création d_un serveur Web statique.pdf" target="_blank" class="fiche-card">
+            <h4>Http Client</h4>
+            <p>Utilisation d'HTTP Client.</p>
+          </a>
+          <a href="fiches/dev/Commandes Git.pdf" target="_blank" class="fiche-card">
+            <h4>xUnit</h4>
+            <p>Effectuer des tests unitaires à l'aide de xUnit.</p>
+          </a>
+
+          <a href="fiches/dev/Fiche de procédure _ Docker.pdf" target="_blank" class="fiche-card">
+            <h4>NpgSQL</h4>
+            <p>Fiche documentaire avec exemple d'utilisation de NpgSQL</p>
           </a>
         </div>
       </div>
@@ -452,9 +455,11 @@
     <section id="veille" class="content-section">
       <h2>Veille Technologique</h2>
 
-      <div class="veille-container">
-        <p>Ma veille technologique se divise en deux parties :</p>
-      <!-- Accessibilité web -->
+      
+
+      <div id="veille-container" class="veille-container">
+
+        <!-- Accessibilité web -->
         <div class="veille-part">
           <h3>Accessibilité Web</h3>
           <p>Cette partie de ma veille est consacrée à l'accessibilité des applications mobiles, et en général à l'accessibilité web.</p><br>
@@ -476,7 +481,36 @@
           </p>
           <img src="img/seo.jpg" alt="Illustration intelligence artificielle" class="veille-img" />
         </div>
-      </section>
+      </div>
+
+
+      <div id="veille-method" style="display: none">
+
+        <h3>Comment j’ai réalisé ma veille</h3>
+
+        <p>
+          Pour réaliser ma veille technologique, j’ai utilisé plusieurs outils comme
+          des flux RSS, des sites spécialisés et des vidéos YouTube.
+          J’ai également mis en place une organisation pour suivre régulièrement
+          les nouveautés dans le domaine.
+        </p>
+
+        <div class="veille-container">
+          <img src="img/veille1.jpg" class="veille-img" />
+          <img src="img/veille2.jpg" class="veille-img" />
+        </div>
+
+        <br>
+
+        <a href="docs/veille.pdf" target="_blank" class="btn-pdf">
+          Voir mon document PDF
+        </a>
+
+      </div>
+
+      <br><button id="VeilleBtn" class="VeilleBtn">Voir comment j’ai réalisé ma veille</button>
+
+    </section>
 
 
       <button class="back">
