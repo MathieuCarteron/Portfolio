@@ -548,6 +548,14 @@ body {
   border-radius: 15px;
 }
 
+/* PDF */
+.pdf:hover {
+  background-color: #04c98e;
+  transition-duration: 0.3s;
+  transform: scale(1.5);
+  border-radius: 15px;
+}
+
 .socialContainer:active {
   transform: scale(0.9);
   transition-duration: 0.3s;
