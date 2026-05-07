@@ -39,24 +39,28 @@
       Veille Technologique
     </a>
     <div class="media">
+      <a href="https://github.com/MathieuCarteron" target="_blank" class="socialContainer github">
+        <img src="img/liens/github.png" class="socialSvg" alt="GitHub">
+      </a>
 
-        <a href="https://github.com/MathieuCarteron" target="_blank" class="socialContainer github">
-          <img src="img/liens/github.png" class="socialSvg" alt="GitHub">
-        </a>
+      <a href="https://www.linkedin.com/in/mathieu-carteron-087921327/" target="_blank" class="socialContainer linkedin">
+        <img src="img/liens/linkedin.png" class="socialSvg" alt="LinkedIn">
+      </a>
 
-        <a href="https://www.linkedin.com/in/mathieu-carteron-087921327/" target="_blank" class="socialContainer linkedin">
-          <img src="img/liens/linkedin.png" class="socialSvg" alt="LinkedIn">
-        </a>
+      <a href="mailto:carteronmathieu@gmail.com" class="socialContainer gmail">
+        <img src="img/liens/gmail.png" class="socialSvg" alt="Gmail">
+      </a>
 
-        <a href="mailto:carteronmathieu@gmail.com" class="socialContainer gmail">
-          <img src="img/liens/gmail.png" class="socialSvg" alt="Gmail">
-        </a>
+      <a href="fiches/CV/CV.pdf" target="_blank" class="socialContainer cv">
+        <img src="img/liens/cv.png" class="socialSvg" alt="CV">
+      </a>
 
-        <a href="fiches/CV/CV.pdf" target="_blank" class="socialContainer cv">
-          <img src="img/liens/cv.png" class="socialSvg" alt="CV">
-        </a>
-
-      </div>
+    </div>
+    <div class="media">
+      <a href="fiches/tableau/tableau-synthese.pdf" target="_blank" class="socialContainer pdf">
+        <img src="img/table.png" class="socialSvg" alt="PDF">
+      </a>
+    </div>
   </div>
   
 
@@ -158,8 +162,8 @@
           <div class="projet-card" data-projet="1">
             <div class="projet-thumb" style="background: linear-gradient(135deg,#465e2b81,#224b0f85);">📋</div>
             <div class="projet-info">
-              <h3>Tableau Kanban</h3>
-              <p>Tableau de planification de tâches.</p>
+              <h3>Magnets</h3>
+              <p>Tableau kanban de planification de tâches.</p>
               <div class="projet-tags">
                 <span class="ptag">HTML</span><span class="ptag">JavaScript</span><span class="ptag">PgSql</span>
               </div>
@@ -426,6 +430,19 @@
             <h4>Docker</h4>
             <p>Installation et création d'images et de conteneurs docker.</p>
           </a>
+          <a href="fiches/Diapo incident disponibilité.pdf" target="_blank" class="fiche-card">
+            <h4>PCA</h4>
+            <p>Diaporama de mise en place d'un PCA avec un downtime d'1h et de 48h.</p>
+          </a>
+          <a href="fiches/PRA.pdf" target="_blank" class="fiche-card">
+            <h4>PRA</h4>
+            <p>Décortication d'une trame de PRA avec explication des tâches des différents acteurs du service.</p>
+          </a>
+
+          <a href="fiches/Référencement Web.pdf" target="_blank" class="fiche-card">
+            <h4>Référencement Web</h4>
+            <p>Explication du SEO et mise en place de quelques mesures sur un WordPress.</p>
+          </a>
         </div>
       </div>
 
@@ -459,12 +476,13 @@
     <!-- Section Veille Technologique -->
     <section id="veille" class="content-section">
       <h2>Veille Technologique</h2>
-      <p>Ma veille technologique se divise en deux parties :</p>
-
+      
+      <p id="TxtVeille">Ma veille technologique se divise en deux parties :</p>
       
 
       <div id="veille-container" class="veille-container">
 
+        
         <!-- Accessibilité web -->
         <div class="veille-part">
           <h3>Accessibilité Web</h3>
@@ -492,25 +510,16 @@
 
       <div id="veille-method" style="display: none">
 
-        <h3>Comment j’ai réalisé ma veille</h3>
+        <h3>Comment j’ai réalisé ma veille</h3><br>
 
         <p>
-          Pour réaliser ma veille technologique, j’ai utilisé plusieurs outils comme
-          des flux RSS, des sites spécialisés et des vidéos YouTube.
-          J’ai également mis en place une organisation pour suivre régulièrement
-          les nouveautés dans le domaine.
+          Pour réaliser ma veille technologique, je me rends sur Feedly et sur Google Actualités, je lis les articles intéressants et j'enregistre les articles majeurs sur Notion.
         </p>
 
         <div class="veille-container">
-          <img src="img/veille1.jpg" class="veille-img" />
-          <img src="img/veille2.jpg" class="veille-img" />
+          <img src="img/veille/veille1.png" class="veilleE-img" />
+          <img src="img/veille/veille2.png" class="veilleE-img" />
         </div>
-
-        <br>
-
-        <a href="docs/veille.pdf" target="_blank" class="btn-pdf">
-          Voir mon document PDF
-        </a>
 
       </div>
 
@@ -519,12 +528,12 @@
     </section>
 
 
-    <button class="back">
-      <svg class="svgIcon" viewBox="0 0 384 512">
-        <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
-      </svg>
-      <span class="back-text">Retour en haut</span>
-    </button>
+      <button class="back">
+        <svg class="svgIcon" viewBox="0 0 384 512">
+          <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+        </svg>
+        <span class="back-text">Retour en haut</span>
+      </button>
 
   </div>
 </section>

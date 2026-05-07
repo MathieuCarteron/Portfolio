@@ -56,12 +56,12 @@ document.addEventListener("DOMContentLoaded", function() {
   {
     emoji: "📋",
     bg: "linear-gradient(135deg,#465e2b81,#224b0f85)",
-    title: "Tableau Kanban",
+    title: "Magnets",
     date: "Février – Mai 2025 · BTS SIO 1e année",
     desc: "Tableau de planification de tâches permettant d'organiser et de suivre l'avancement de projets sous forme de colonnes (À faire, En cours, Terminé).",
     tags: ["HTML", "JavaScript", "PgSQL"],
     images: [
-      { src: "img/projets/kanban1.png", caption: "Vue générale du tableau" },
+      { src: "img/projets/magnets1.png", caption: "Vue générale du tableau" },
     ]
   },
   {
@@ -84,8 +84,8 @@ document.addEventListener("DOMContentLoaded", function() {
     desc: "Développement d'une application mobile permettant des discussions chiffrées entre membres et par groupes. API RESTful en C#, front-end Angular transformé en application native Android via Capacitor.",
     tags: ["C#", "API RESTful", "Angular", "Capacitor"],
     images: [
-      { src: "img/projets/chat1.png", caption: "Liste des utilisateurs" },
-      { src: "img/projets/chat2.png", caption: "Vue d'une discussion chiffrée" }
+      { src: "img/projets/knots1.png", caption: "Page de Login" },
+      { src: "img/projets/knots2.png", caption: "Vue d'une discussion" }
     ]
   },
   {
@@ -163,15 +163,18 @@ document.addEventListener("DOMContentLoaded", function() {
   const btn = document.getElementById("VeilleBtn");
   const defaultView = document.getElementById("veille-container");
   const methodView = document.getElementById("veille-method");
+  const textVeille = document.getElementById("TxtVeille")
 
   btn.addEventListener("click", () => {
     if (defaultView.style.display !== "none") {
       defaultView.style.display = "none";
       methodView.style.display = "block";
+      textVeille.style.display = "none";
       btn.textContent = "Revenir à la veille";
     } else {
       defaultView.style.display = "block";
       methodView.style.display = "none";
+      textVeille.style.display = "block";
       btn.textContent = "Voir comment j’ai réalisé ma veille";
     }
   });
