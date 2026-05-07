@@ -494,6 +494,20 @@ body {
   opacity: 1;
 }
 
+.veilleE-img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 15px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.veilleE-img:hover {
+  opacity: 1;
+}
+
 
 
 /* From Uiverse.io by ubaidi10 */ 
@@ -550,7 +564,7 @@ body {
 
 /* PDF */
 .pdf:hover {
-  background-color: #04c98e;
+  background-color: #09ad7c;
   transition-duration: 0.3s;
   transform: scale(1.5);
   border-radius: 15px;
